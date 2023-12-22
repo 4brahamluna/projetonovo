@@ -70,6 +70,7 @@ def resolver_problema_caixeiro(df_distancias, df_coordenadas, mapa_do_rn, cidade
 
     # Exibir status da solução
     st.write("Status da Solução:", pulp.LpStatus[status])
+    st.write("Eliabner Luna")
     st.write("Tempo de Resolução:", tempo_final - tempo_inicial)
 
     # Exibir o caminho percorrido
